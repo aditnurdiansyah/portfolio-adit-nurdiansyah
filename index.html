@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adit Nurdiansyah - Full Stack Developer</title>
+
+  <!-- SEO (Search Engine Optimization) -->
+  <meta name="description" content="Adit Nurdiansyah: Full Stack Developer building scalable web solutions and PWAs. Discover high-performance applications focused on seamless user experiences.">
+  <meta name="author" content="Adit Nurdiansyah">
+  <link rel="canonical" href="https://aditnurdiansyah.netlify.app/">
+
+  <!-- Favicons -->
+  <meta name="theme-color" content="#080b12">
+  <link rel="icon" href="assets/images/favicon/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/images/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aditnurdiansyah.netlify.app/">
+  <meta property="og:site_name" content="Adit Nurdiansyah">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Adit Nurdiansyah - Full Stack Developer">
+  <meta property="og:description" content="Adit Nurdiansyah: Full Stack Developer building scalable web solutions and PWAs. Discover high-performance applications focused on seamless user experiences.">
+  <meta property="og:image" content="https://aditnurdiansyah.netlify.app/assets/images/open-graph/adit-nurdiansyah-full-stack-developer-og.jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:alt" content="A preview image showcasing the personal portfolio of Adit Nurdiansyah - Full Stack Developer, featuring a clean and modern design with highlights of his skills and projects.">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://aditnurdiansyah.netlify.app/">
+  <meta name="twitter:title" content="Adit Nurdiansyah - Full Stack Developer">
+  <meta name="twitter:description" content="Adit Nurdiansyah: Full Stack Developer building scalable web solutions and PWAs. Discover high-performance applications focused on seamless user experiences.">
+  <meta name="twitter:image" content="https://aditnurdiansyah.netlify.app/assets/images/open-graph/adit-nurdiansyah-full-stack-developer-og.jpeg">
+  <meta name="twitter:image:alt" content="A preview image showcasing the personal portfolio of Adit Nurdiansyah - Full Stack Developer, featuring a clean and modern design with highlights of his skills and projects.">
+
+  <!-- Google Fonts -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Manrope:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Custom JS -->
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <!-- Logo -->
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>ANDev<span class="logo-bracket">&#47;&gt;</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="navLinks" role="list">
+        <li role="listitem"><a href="#about" class="nav-link"><i class="fa-solid fa-user" aria-hidden="true"></i><span>About</span></a></li>
+        <li role="listitem"><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i><span>Education</span></a></li>
+        <li role="listitem"><a href="#awards" class="nav-link"><i class="fa-solid fa-trophy" aria-hidden="true"></i><span>Awards</span></a></li>
+        <li role="listitem"><a href="#certs" class="nav-link"><i class="fa-solid fa-certificate" aria-hidden="true"></i><span>Certifications</span></a></li>
+        <li role="listitem"><a href="#skills" class="nav-link"><i class="fa-solid fa-code" aria-hidden="true"></i><span>Skills</span></a></li>
+        <li role="listitem"><a href="#portfolio" class="nav-link"><i class="fa-solid fa-briefcase" aria-hidden="true"></i><span>Portfolio</span></a></li>
+        <li role="listitem"><a href="#footer" class="nav-link nav-contact"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i><span>Contact</span></a></li>
+      </ul>
+
+      <!-- Hamburger Menu -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Overlay -->
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero-section">
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+    <div class="hero-container">
+
+      <!-- Hero Text -->
+      <div class="hero-text" data-reveal>
+        <!-- Hero Eyebrow -->
+        <p class="hero-eyebrow" aria-hidden="true"><span class="dot"></span> Available for work</p>
+
+        <!-- Hero Title -->
+        <h1 class="hero-title">
+          Hello World! I'm<br/>
+          <span class="hero-name">Adit Nurdiansyah</span>
+        </h1>
+
+        <!-- Typed Text -->
+        <div class="hero-typed-wrapper">
+          <span class="hero-typed-static">I build </span>
+          <span class="hero-typed" id="typedText"></span>
+          <span class="cursor-blink" aria-hidden="true">|</span>
+        </div>
+
+        <!-- Hero Subtitle -->
+        <p class="hero-sub">
+          A passionate developer crafting clean, performant digital experiences &mdash; from pixel-perfect UIs to scalable back-end systems.
+        </p>
+
+        <!-- Call-to-Action Buttons -->
+        <div class="hero-cta">
+          <a href="#portfolio" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a href="#about" class="btn btn-ghost">More About Me</a>
+        </div>
+      </div>
+
+      <!-- Hero Image -->
+      <div class="hero-image-wrap" data-reveal data-delay="200">
+        <!-- Profile Image -->
+        <div class="hero-image-frame">
+          <div class="hero-image-glow" aria-hidden="true"></div>
+          <img src="assets/images/profile/profile-photo-adit-nurdiansyah-full-stack-developer.png" alt="Profile photo of Adit Nurdiansyah - Full Stack Developer" class="hero-photo" width="400" height="400" fetchpriority="high">
+        </div>
+
+        <!-- Badges -->
+        <div class="hero-badge badge-top" aria-hidden="true">
+          <i class="fa-solid fa-star" aria-hidden="true"></i>
+          <span>1+ years exp</span>
+        </div>
+        <div class="hero-badge badge-bottom" aria-hidden="true">
+          <i class="fa-solid fa-check-circle" aria-hidden="true"></i>
+          <span>Open to roles</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Hint -->
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <!-- About Label -->
+      <div class="section-label" data-reveal><span>01</span> About</div>
+      <div class="about-grid">
+        <div class="about-text" data-reveal>
+          <!-- About Title -->
+          <h2 class="section-title">Crafting code<br/><em>with purpose.</em></h2>
+
+          <!-- Bio -->
+          <p class="about-bio">
+            I'm <strong>Adit Nurdiansyah</strong>, a Full Stack Developer based in Indonesia. I specialise in building scalable web applications and intuitive interfaces that solve real problems. My approach blends rigorous engineering with thoughtful design.
+          </p>
+          <p class="about-bio">
+            When I'm not shipping features, you'll find me contributing to open-source projects, reading about systems design, or diving into a good book. I believe great software is empathetic software.
+          </p>
+
+          <!-- Interests -->
+          <div class="about-interests">
+            <span class="interest-tag"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i> Web Dev</span>
+            <span class="interest-tag"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i> Mobile</span>
+            <span class="interest-tag"><i class="fa-solid fa-palette" aria-hidden="true"></i> UI/UX</span>
+            <span class="interest-tag"><i class="fa-solid fa-camera" aria-hidden="true"></i> Photography</span>
+            <span class="interest-tag"><i class="fa-solid fa-paint-brush" aria-hidden="true"></i> Painting</span>
+          </div>
+
+          <!-- CV Button -->
+          <a href="assets/documents/cv/cv-adit-nurdiansyah.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary cv-btn">
+            <i class="fa-solid fa-file" aria-hidden="true"></i> View My CV
+          </a> 
+          <p class="cv-info">Last updated: April 2026</p>
+        </div>
+
+        <!-- Statistics -->
+        <div class="about-stats" data-reveal data-delay="150">
+          <div class="stat-card">
+            <span class="stat-num">1+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">&infin;</span>
+            <span class="stat-label">Cups of Coffee</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <!-- Education Label -->
+      <div class="section-label" data-reveal><span>02</span> Education</div>
+      <!-- Education Title -->
+      <h2 class="section-title" data-reveal>Academic <em>journey.</em></h2>
+      <div class="timeline">
+
+        <!-- Education Item 1 -->
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <a href="https://untirta.ac.id" target="_blank" rel="noopener noreferrer" class="institution-link">
+                  Sultan Ageng Tirtayasa University <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                </a>
+                <p class="timeline-degree">Bachelor of Science &mdash; Informatics</p>
+              </div>
+              <span class="timeline-year">2025 - Present</span>
+            </div>
+            <p class="timeline-desc">
+              Focused on software engineering, data structures and algorithms. Member of the university coding club, Dean's List achiever, and lead developer for the annual Hackathon project that won Best Innovation.
+            </p>
+            <div class="timeline-tags">
+              <span>Dean's List</span><span>Hackathon Winner</span><span>Coding Club Lead</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education Item 2 -->
+        <div class="timeline-item" data-reveal data-delay="100">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <a href="https://www.instagram.com/sman11pandeglang_official" target="_blank" rel="noopener noreferrer" class="institution-link">
+                  SMAN 11 Pandeglang <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+                </a>
+                <p class="timeline-degree">High School Diploma &mdash; Science & Technology</p>
+              </div>
+              <span class="timeline-year">2022 - 2025</span>
+            </div>
+            <p class="timeline-desc">
+              Graduated with honours. Active participant in science olympiads and technology competitions. Founded the school's first robotics team.
+            </p>
+            <div class="timeline-tags">
+              <span>Honours Graduate</span><span>Robotics Founder</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- AWARDS SECTION -->
+  <section id="awards" class="section awards-section">
+    <div class="container">
+      <!-- Awards Label -->
+      <div class="section-label" data-reveal><span>03</span> Awards</div>
+      <!-- Awards Title -->
+      <h2 class="section-title" data-reveal>Recognition & <em>achievements.</em></h2>
+      <div class="cards-grid">
+
+        <!-- Award Card 1 -->
+        <div class="award-card" data-reveal>
+          <a href="https://drive.google.com/file/d/1Imb92gkIaeoaWKKXuA9Y-axzaRe_FKL3/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="card-img-link">
+            <div class="card-img-wrap">
+              <img src="assets/images/awards/award-certificate-1.png" alt="Award certificate preview 1 of Adit Nurdiansyah - Full Stack Developer" loading="lazy">
+              <div class="card-img-overlay"><i class="fa-solid fa-expand" aria-hidden="true"></i> View Certificate</div>
+            </div>
+          </a>
+          <div class="card-body">
+            <div class="award-rank rank-gold"><i class="fa-solid fa-trophy" aria-hidden="true"></i> 1st Place</div>
+            <h3 class="card-title">Youth Leadership & Soft Skills Development</h3>
+            <p class="card-organizer"><i class="fa-solid fa-building" aria-hidden="true"></i> Kemenpora BEM KBM UNTIRTA &nbsp;&middot;&nbsp; 2025</p>
+          </div>
+        </div>
+
+        <!-- Award Card 2 -->
+        <div class="award-card" data-reveal data-delay="100">
+          <a href="https://drive.google.com/file/d/1IIji3IFoAYB0QB84eVnptgyAF5AlkffM/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="card-img-link">
+            <div class="card-img-wrap">
+              <img src="assets/images/awards/award-certificate-2.png" alt="Award certificate preview 2 of Adit Nurdiansyah - Full Stack Developer" loading="lazy">
+              <div class="card-img-overlay"><i class="fa-solid fa-expand" aria-hidden="true"></i> View Certificate</div>
+            </div>
+          </a>
+          <div class="card-body">
+            <div class="award-rank rank-silver"><i class="fa-solid fa-medal" aria-hidden="true"></i> 2nd Place</div>
+            <h3 class="card-title">Economic Capital Market Talk - From Zero to Strategy: A Roadmap to Smart Investing in an Unpredictable Market</h3>
+            <p class="card-organizer"><i class="fa-solid fa-building" aria-hidden="true"></i> Kelompok Studi Pasar Modal (KSPM) UNTIRTA &nbsp;&middot;&nbsp; 2025</p>
+          </div>
+        </div>
+
+        <!-- Award Card 3 -->
+        <div class="award-card" data-reveal data-delay="200">
+          <a href="https://drive.google.com/file/d/18Bl8DyRpTHmAmjXp-izNBmuKeb9cvbDJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="card-img-link">
+            <div class="card-img-wrap">
+              <img src="assets/images/awards/award-certificate-3.png" alt="Award certificate preview 3 of Adit Nurdiansyah - Full Stack Developer" loading="lazy">
+              <div class="card-img-overlay"><i class="fa-solid fa-expand" aria-hidden="true"></i> View Certificate</div>
+            </div>
+          </a>
+          <div class="card-body">
+            <div class="award-rank rank-bronze"><i class="fa-solid fa-award" aria-hidden="true"></i> 3rd Place</div>
+            <h3 class="card-title">TOEFL Preparation Free Course</h3>
+            <p class="card-organizer"><i class="fa-solid fa-building" aria-hidden="true"></i> Language Center and International Office (LCIO) UNTIRTA &nbsp;&middot;&nbsp; 2025</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS SECTION -->
+  <section id="certs" class="section certs-section">
+    <div class="container">
+      <!-- Certifications Label -->
+      <div class="section-label" data-reveal><span>04</span> Certifications</div>
+      <!-- Certifications Title -->
+      <h2 class="section-title" data-reveal>Continuous <em>learning.</em></h2>
+      <div class="cards-grid">
+
+        <!-- Certificate Card 1 -->
+        <div class="cert-card" data-reveal>
+          <a href="https://drive.google.com/file/d/1IEMvp_puYwswtYQTXYMy92O593T5FKAF/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="card-img-link">
+            <div class="card-img-wrap">
+              <img src="assets/images/certifications/certificate-1.png" alt="Certification preview 1 of Adit Nurdiansyah - Full Stack Developer" loading="lazy">
+              <div class="card-img-overlay"><i class="fa-solid fa-expand" aria-hidden="true"></i> View Certificate</div>
+            </div>
+          </a>
+          <div class="card-body">
+            <span class="cert-badge">Cyber Security</span>
+            <h3 class="card-title">Cyber Security Awareness: Lindungi Data Pribadi dari Phishing</h3>
+            <p class="card-organizer"><i class="fa-solid fa-university" aria-hidden="true"></i> Himpunan Mahasiswa Informatika (HMIF) UNTIRTA &nbsp;&middot;&nbsp; 2025</p>
+          </div>
+        </div>
+
+        <!-- Certificate Card 2 -->
+        <div class="cert-card" data-reveal data-delay="100">
+          <a href="https://drive.google.com/file/d/13oWt74-_MtjMNRPdmdNONOu1mI2SByN8/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="card-img-link">
+            <div class="card-img-wrap">
+              <img src="assets/images/certifications/certificate-2.png" alt="Certification preview 2 of Adit Nurdiansyah - Full Stack Developer" loading="lazy">
+              <div class="card-img-overlay"><i class="fa-solid fa-expand" aria-hidden="true"></i> View Certificate</div>
+            </div>
+          </a>
+          <div class="card-body">
+            <span class="cert-badge">Cyber Security</span>
+            <h3 class="card-title">Tantangan Cyber Security 4.0 dan 5.0</h3>
+            <p class="card-organizer"><i class="fa-solid fa-university" aria-hidden="true"></i> Himpunan Mahasiswa Informatika (HMIF) UNTIRTA &nbsp;&middot;&nbsp; 2025</p>
+          </div>
+        </div>
+
+        <!-- Certificate Card 3 -->
+        <div class="cert-card" data-reveal data-delay="200">
+          <a href="https://drive.google.com/file/d/188gyqt0Fduy5W1h48R82mm5MLpR-Kh2e/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="card-img-link">
+            <div class="card-img-wrap">
+              <img src="assets/images/certifications/certificate-3.png" alt="Certification preview 3 of Adit Nurdiansyah - Full Stack Developer" loading="lazy">
+              <div class="card-img-overlay"><i class="fa-solid fa-expand" aria-hidden="true"></i> View Certificate</div>
+            </div>
+          </a>
+          <div class="card-body">
+            <span class="cert-badge">AI & Tech</span>
+            <h3 class="card-title">Artificial Intelligence (AI) sebagai Pendorong Kemajuan Teknologi Informasi</h3>
+            <p class="card-organizer"><i class="fa-solid fa-university" aria-hidden="true"></i> Perhimpunan Mahasiswa Informatika dan Ilmu Komputer Nasional Wilayah IV Banten (PERMIKOMNAS) &nbsp;&middot;&nbsp; 2025</p>
+          </div>
+        </div>
+
+        <!-- Certificate Card 4 -->
+        <div class="cert-card" data-reveal data-delay="300">
+          <a href="https://drive.google.com/file/d/1FVGKx8qIESA21SD_QL0G0HQClC34UNKd/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="card-img-link">
+            <div class="card-img-wrap">
+              <img src="assets/images/certifications/certificate-4.png" alt="Certification preview 4 of Adit Nurdiansyah - Full Stack Developer" loading="lazy">
+              <div class="card-img-overlay"><i class="fa-solid fa-expand" aria-hidden="true"></i> View Certificate</div>
+            </div>
+          </a>
+          <div class="card-body">
+            <span class="cert-badge">Digital Security</span>
+            <h3 class="card-title">Transformasi Digital dan Keamanan Teknologi di Era Berbasis Data: Menunjukkan Minat untuk Mempelajari Dasar-Dasar Teknologi Digital dan Keamanan</h3>
+            <p class="card-organizer"><i class="fa-solid fa-university" aria-hidden="true"></i> Mahasiswa Informatika Angkatan 2025 UNTIRTA &nbsp;&middot;&nbsp; 2025</p>
+          </div>
+        </div>
+
+        <!-- Certificate Card 5 -->
+        <div class="cert-card" data-reveal data-delay="400">
+          <a href="https://drive.google.com/file/d/1ZxtX7RJ_IciuJv4B6uKmHpD7HRG6sTrE/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="card-img-link">
+            <div class="card-img-wrap">
+              <img src="assets/images/certifications/certificate-5.png" alt="Certification preview 5 of Adit Nurdiansyah - Full Stack Developer" loading="lazy">
+              <div class="card-img-overlay"><i class="fa-solid fa-expand" aria-hidden="true"></i> View Certificate</div>
+            </div>
+          </a>
+          <div class="card-body">
+            <span class="cert-badge">Career Dev</span>
+            <h3 class="card-title">Ready, Set, Tech - Start Your Career</h3>
+            <p class="card-organizer"><i class="fa-solid fa-university" aria-hidden="true"></i> Himpunan Mahasiswa Informatika (HMIF) UNTIRTA &nbsp;&middot;&nbsp; 2025</p>
+          </div>
+        </div>
+
+        <!-- Certificate Card 6 -->
+        <div class="cert-card" data-reveal data-delay="900">
+          <a href="https://drive.google.com/file/d/1S1Pb7tDFO-e9SGKnfmpZqhp3M-76U6O9/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="card-img-link">
+            <div class="card-img-wrap">
+              <img src="assets/images/certifications/certificate-6.png" alt="Certification preview 6 of Adit Nurdiansyah - Full Stack Developer" loading="lazy">
+              <div class="card-img-overlay"><i class="fa-solid fa-expand" aria-hidden="true"></i> View Certificate</div>
+            </div>
+          </a>
+          <div class="card-body">
+            <span class="cert-badge">Industry Talk</span>
+            <h3 class="card-title">Industrial Sharing and Engineering Thought (INSIGHT) Program</h3>
+            <p class="card-organizer"><i class="fa-solid fa-university" aria-hidden="true"></i> Department of Education, Training, and Certification of LSO Ikadiksi FT UNTIRTA &nbsp;&middot;&nbsp; 2026</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <!-- Skills Label -->
+      <div class="section-label" data-reveal><span>05</span> Skills</div>
+      <!-- Skills Title -->
+      <h2 class="section-title" data-reveal>Technical <em>toolkit.</em></h2>
+
+      <!-- To add/edit/delete: copy or remove a <div class="skill-item"> block -->
+      <!-- Frontend Skills -->
+      <div class="skills-group" data-reveal>
+        <p class="skills-group-label">Frontend</p>
+        <div class="skills-grid">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+            <span>HTML5</span>
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+            <span>CSS3</span>
+          </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+            <span>JavaScript</span>
+          </a>
+          <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
+            <span>Bootstrap</span>
+          </a>
+          <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS">
+            <span>Tailwind CSS</span>
+          </a>
+          <a href="https://react.dev/" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js">
+            <span>React.js</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Backend & Database Skills -->
+      <div class="skills-group" data-reveal data-delay="100">
+        <p class="skills-group-label">Backend & Database</p>
+        <div class="skills-grid">
+          <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+            <span>Node.js</span>
+          </a>
+          <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+            <span>MySQL</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Tools & Platforms Skills -->
+      <div class="skills-group" data-reveal data-delay="200">
+        <p class="skills-group-label">Tools & Platforms</p>
+        <div class="skills-grid">
+          <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+            <span>VS Code</span>
+          </a>
+          <a href="https://visualstudio.com/" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-original.svg" alt="Visual Studio">
+            <span>Visual Studio</span>
+          </a>
+          <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+            <span>Git</span>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer" class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+            <span>Figma</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="section portfolio-section">
+    <div class="container">
+      <!-- Portfolio Label -->
+      <div class="section-label" data-reveal><span>06</span> Portfolio</div>
+      <!-- Portfolio Title -->
+      <h2 class="section-title" data-reveal>Selected <em>work.</em></h2>
+      <div class="projects-grid">
+
+        <!-- Project Card 1 -->
+        <article class="project-card" data-reveal>
+          <a href="https://company-af-it-profile.netlify.app" target="_blank" rel="noopener noreferrer" class="project-img-link">
+            <div class="project-img-wrap">
+              <img src="assets/images/projects/project-1.png" alt="Project preview 1 of Adit Nurdiansyah - Full Stack Developer" loading="lazy">
+              <div class="project-img-overlay"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></div>
+            </div>
+          </a>
+          <div class="project-body">
+            <h3 class="project-title">Company Profile | AF it</h3>
+            <p class="project-desc">
+              A responsive company profile website for AF it, a technology solutions provider based in Banten, Indonesia. Built with pure HTML and CSS, the site highlights the company's core services, team, and contact information with a clean, professional layout.
+            </p>
+
+            <div class="project-tech">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer" class="tech-badge">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"> HTML5
+              </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer" class="tech-badge">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"> CSS3
+              </a>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://company-af-it-profile.netlify.app" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                <i class="fa-solid fa-rocket" aria-hidden="true"></i> Live Demo
+              </a>
+              <a href="https://github.com/AditNurdiansyah657/company-profile" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                <i class="fa-brands fa-github" aria-hidden="true"></i> Source Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="project-card" data-reveal data-delay="100">
+          <a href="https://masjid-al-kautsar.netlify.app" target="_blank" rel="noopener noreferrer" class="project-img-link">
+            <div class="project-img-wrap">
+              <img src="assets/images/projects/project-2.png" alt="Project preview 2 of Adit Nurdiansyah - Full Stack Developer" loading="lazy">
+              <div class="project-img-overlay"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></div>
+            </div>
+          </a>
+          <div class="project-body">
+            <h3 class="project-title">Landing Page | Al-Kautsar Mosque</h3>
+            <p class="project-desc">
+              An informational landing page for Al-Kautsar Mosque featuring prayer schedules, activity announcements, and donation details. Vanilla JavaScript powers dynamic content updates, while a mobile-first layout ensures accessibility for all congregation members.
+            </p>
+
+            <div class="project-tech">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer" class="tech-badge">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"> HTML5
+              </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer" class="tech-badge">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"> CSS3
+              </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" class="tech-badge">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"> JavaScript
+              </a>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://masjid-al-kautsar.netlify.app" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                <i class="fa-solid fa-rocket" aria-hidden="true"></i> Live Demo
+              </a>
+              <a href="https://github.com/AditNurdiansyah657/masjid-al-kautsar" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                <i class="fa-brands fa-github" aria-hidden="true"></i> Source Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 3 -->
+        <article class="project-card" data-reveal data-delay="200">
+          <a href="https://progressive-web-app-company.vercel.app" target="_blank" rel="noopener noreferrer" class="project-img-link">
+            <div class="project-img-wrap">
+              <img src="assets/images/projects/project-3.png" alt="Project preview 3 of Adit Nurdiansyah - Full Stack Developer" loading="lazy">
+              <div class="project-img-overlay"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></div>
+            </div>
+          </a>
+          <div class="project-body">
+            <h3 class="project-title">Progressive Web App (PWA) | BizDirectory</h3>
+            <p class="project-desc">
+              A Progressive Web App (PWA) business directory installable on mobile devices with offline support via service workers. Users can browse and search business listings by category, with each entry displaying services, location, and contact details.
+            </p>
+
+            <div class="project-tech">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer" class="tech-badge">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"> HTML5
+              </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer" class="tech-badge">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"> CSS3
+                </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" class="tech-badge">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"> JavaScript
+              </a>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://progressive-web-app-company.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                <i class="fa-solid fa-rocket" aria-hidden="true"></i> Live Demo
+              </a>
+              <a href="https://github.com/AditNurdiansyah657/progressive-web-app-company" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                <i class="fa-brands fa-github" aria-hidden="true"></i> Source Code
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-tagline">Let's build something great together.</p>
+        <div class="footer-socials">
+          <a href="mailto:aditnurdiansyah09@gmail.com" class="social-link" aria-label="Email">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="https://linkedin.com/in/aditnurdiansyah" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/AditNurdiansyah657" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+          </a>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> Adit Nurdiansyah. All rights reserved.
+          <br/><span class="footer-made">Built by Adit Nurdiansyah</span>
+        </p>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+</body>
+</html>

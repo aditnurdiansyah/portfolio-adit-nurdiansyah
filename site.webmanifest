@@ -1,0 +1,22 @@
+{
+    "name":"Adit Nurdiansyah - Full Stack Developer",
+    "short_name":"Adit Nurdiansyah",
+    "description":"Adit Nurdiansyah: Full Stack Developer building scalable web solutions and PWAs. Discover high-performance applications focused on seamless user experiences.",
+    "icons": [
+        {
+            "src":"assets/images/favicon/android-chrome-192x192.png", "sizes":"192x192",
+            "type":"image/png",
+            "purpose":"any maskable"
+        },
+        {
+            "src":"assets/images/favicon/android-chrome-512x512.png","sizes":"512x512",
+            "type":"image/png",
+            "purpose":"any maskable"
+        }
+    ],
+    "theme_color":"#080b12",
+    "background_color":"#080b12",
+    "display":"standalone",
+    "start_url":"index.html",
+    "orientation":"portrait"
+}
