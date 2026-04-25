@@ -1095,6 +1095,10 @@ ul { list-style: none; }
   color: var(--border-light);
 }
 
+.footer-code-builder {
+  color: #D97757;
+}
+
 /* BACK TO TOP */
 .back-to-top {
   position: fixed;
