@@ -182,11 +182,11 @@ ul { list-style: none; }
 
 .btn-sm { padding: 0.5rem 1rem; font-size: 0.8rem; }
 
-.cv-info {
+/* .cv-info {
   font-size: 0.75rem;
   color: var(--text-muted);
   margin-top: 0.5rem;
-}
+} */
 
 /* NAVIGATION BAR */
 .navbar {
@@ -727,7 +727,7 @@ ul { list-style: none; }
 }
 
 /* AWARDS & CERTIFICATIONS (shared cards grid) */
-.awards-section {
+/* .awards-section {
   background: var(--bg-surface);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -812,10 +812,10 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   gap: 0.4rem;
-}
+} */
 
 /* Award Rank Badge */
-.award-rank {
+/* .award-rank {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
@@ -841,10 +841,10 @@ ul { list-style: none; }
   color: var(--bronze);
   background: rgba(249,115,22,0.1);
   border: 1px solid rgba(249,115,22,0.25);
-}
+} */
 
 /* Certifications Badge */
-.cert-badge {
+/* .cert-badge {
   display: inline-block;
   font-size: 0.7rem;
   font-weight: 700;
@@ -856,7 +856,7 @@ ul { list-style: none; }
   color: #a78bfa;
   border-radius: 4px;
   margin-bottom: 0.7rem;
-}
+} */
 
 /* SKILLS SECTION */
 .skills-section {
