@@ -148,7 +148,7 @@ backToTop.addEventListener('click', () => {
 // TYPING EFFECT (Hero Section)
 const typedPhrases = [
   'beautiful web apps.',
-  'scalable back-ends.',
+  'responsive designs.',
   'pixel-perfect UIs.',
   'great user experiences.',
   'elegant solutions.',
